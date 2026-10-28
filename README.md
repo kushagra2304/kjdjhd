@@ -66,6 +66,7 @@ The app reads the cached data in `backend/data/`; it never calls Elexon while ru
 ```
 .
 ├── docker-compose.yml          Runs backend + frontend together (ports 8000 and 3000)
+├── vercel.json                 Vercel deployment: frontend at /, FastAPI backend at /api (one project)
 ├── docs/
 │   ├── architecture.svg        Architecture and data-flow diagram
 │   └── architecture.png        The same diagram as an image
@@ -74,6 +75,7 @@ The app reads the cached data in `backend/data/`; it never calls Elexon while ru
 │   ├── requirements.txt        Runtime dependencies
 │   ├── requirements-dev.txt    Runtime + test dependencies (pytest, httpx)
 │   ├── pytest.ini              Test configuration
+│   ├── .python-version         Python version Vercel uses for the backend
 │   ├── app/
 │   │   ├── main.py             API routes: /api/health, /api/meta, /api/comparison, /api/horizon-error
 │   │   ├── config.py           Constants: date range, horizon limits, API settings, file paths
