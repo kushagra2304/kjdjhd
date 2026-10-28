@@ -1,0 +1,4 @@
+# Notebook dependencies: the backend's (the notebook imports backend/app) plus plotting and Jupyter.
+-r ../backend/requirements.txt
+matplotlib==3.11.2
+jupyter==1.1.1

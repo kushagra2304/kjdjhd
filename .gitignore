@@ -1,0 +1,29 @@
+# --- Personal / planning files (not part of the submission) ---
+BUILD_PLAN.md
+PRESENTATION_GUIDE.md
+presentation/
+notes/
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Node / frontend build ---
+node_modules/
+dist/
+*.tsbuildinfo
+
+# --- Environment, deployment and editor files ---
+.env
+.env.*
+.vercel/
+.vscode/
+.idea/
+.claude/
+*.log
+.DS_Store
+Thumbs.db
