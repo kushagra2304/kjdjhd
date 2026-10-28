@@ -4,7 +4,7 @@ A web app that compares UK national wind generation forecasts with actual genera
 public Elexon BMRS data. Pick a time window and a forecast horizon (0–48h) to see the forecast that was available
 that many hours before each period, how it compared with reality, and how large the error was.
 
-**Live app:** _Vercel link coming soon_
+**Live app:** https://kjdjhd.vercel.app/ (API docs: https://kjdjhd.vercel.app/api/docs)
 
 ---
 
